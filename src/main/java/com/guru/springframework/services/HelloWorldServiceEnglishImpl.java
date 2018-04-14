@@ -6,8 +6,12 @@ import org.springframework.stereotype.Component;
 /**
  * Created by donaldsmallidge on 8/31/16.
  */
-@Component
-@Profile("english")
+
+/**
+ * Remove Annotation to use Java Sprint configuration classes
+ */
+//@Component
+//@Profile("english")
 public class HelloWorldServiceEnglishImpl implements HelloWorldService {
 
     @Override
